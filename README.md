@@ -27,7 +27,7 @@ vegito('hello {{ name }}', {name: 'world'})
 vegito(`hello {{ name.toUpperCase().split('').join('-') }}`, {name: 'world'})
 //=> hello W-O-R-L-D
 
-vegetp(`hello {{ reverse('world') }}`, {
+vegito(`hello {{ reverse('world') }}`, {
   reverse: str => str.split('').reverse().join('')
 })
 //=> hello dlrow
