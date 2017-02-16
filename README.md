@@ -20,7 +20,7 @@ const vegeto = require('vegeto')
 vegeto('hello {{ name }}', {name: 'world'})
 //=> hello world
 
-vegeto('hello {{ name.toUpperCase().split('').join('-') }}', {name: 'world'})
+vegeto(`hello {{ name.toUpperCase().split('').join('-') }}`, {name: 'world'})
 //=> hello W-O-R-L-D
 ```
 
