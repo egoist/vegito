@@ -22,6 +22,11 @@ vegeto('hello {{ name }}', {name: 'world'})
 
 vegeto(`hello {{ name.toUpperCase().split('').join('-') }}`, {name: 'world'})
 //=> hello W-O-R-L-D
+
+vegetp(`hello {{ reverse('world') }}`, {
+  reverse: str => str.split('').reverse().join('')
+})
+//=> hello dlrow
 ```
 
 You can use **any** JavaScript expression in the template within delimiters `{{` and `}}`.
