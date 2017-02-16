@@ -10,6 +10,8 @@
 npm i --save vegeto
 ```
 
+CDN: https://unpkg.com/vegeto/dist/
+
 ## Usage
 
 ```js
