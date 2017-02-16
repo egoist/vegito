@@ -1,6 +1,6 @@
 {
   "name": "vegeto",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Simple micro templating with JavaScript expression support.",
   "repository": {
     "url": "egoist/vegeto",
@@ -23,7 +23,9 @@
   "babel": {
     "env": {
       "test": {
-        "presets": ["es2015"]
+        "presets": [
+          "es2015"
+        ]
       }
     }
   },
