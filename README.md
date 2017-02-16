@@ -1,26 +1,30 @@
-# vegeto
+<p align="center">
+  <img width="60" src="./media/icon.png" alt="vegito">
+</p>
 
-[![NPM version](https://img.shields.io/npm/v/vegeto.svg?style=flat)](https://npmjs.com/package/vegeto) [![NPM downloads](https://img.shields.io/npm/dm/vegeto.svg?style=flat)](https://npmjs.com/package/vegeto) [![Build Status](https://img.shields.io/circleci/project/egoist/vegeto/master.svg?style=flat)](https://circleci.com/gh/egoist/vegeto) [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/egoist/donate)
+<p align="center"><a href="https://npmjs.com/package/vegito"><img src="https://img.shields.io/npm/v/vegito.svg?style=flat" alt="NPM version"></a> <a href="https://npmjs.com/package/vegito"><img src="https://img.shields.io/npm/dm/vegito.svg?style=flat" alt="NPM downloads"></a> <a href="https://circleci.com/gh/egoist/vegito"><img src="https://img.shields.io/circleci/project/egoist/vegito/master.svg?style=flat" alt="Build Status"></a> <a href="https://github.com/egoist/donate"><img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat" alt="donate"></a></p>
 
-> 463 bytes simple template engine that works for Node.js and browser.
+<p align="center">
+  463 bytes simple template engine that works for Node.js and browser.
+</p>
 
 ## Install
 
 ```bash
-npm i --save vegeto
+npm i --save vegito
 ```
 
-CDN: https://unpkg.com/vegeto/dist/
+CDN: https://unpkg.com/vegito/dist/
 
 ## Usage
 
 ```js
-const vegeto = require('vegeto')
+const vegito = require('vegito')
 
-vegeto('hello {{ name }}', {name: 'world'})
+vegito('hello {{ name }}', {name: 'world'})
 //=> hello world
 
-vegeto(`hello {{ name.toUpperCase().split('').join('-') }}`, {name: 'world'})
+vegito(`hello {{ name.toUpperCase().split('').join('-') }}`, {name: 'world'})
 //=> hello W-O-R-L-D
 
 vegetp(`hello {{ reverse('world') }}`, {
@@ -33,7 +37,7 @@ You can use **any** JavaScript expression in the template within delimiters `{{`
 
 ## API
 
-### vegeto(template, data, options)
+### vegito(template, data, options)
 
 #### template
 
@@ -67,7 +71,7 @@ Change the expression interpolation delimiters.
 
 ## Author
 
-**vegeto** © [egoist](https://github.com/egoist), Released under the [MIT](./LICENSE) License.<br>
-Authored and maintained by egoist with help from contributors ([list](https://github.com/egoist/vegeto/contributors)).
+**vegito** © [egoist](https://github.com/egoist), Released under the [MIT](./LICENSE) License.<br>
+Authored and maintained by egoist with help from contributors ([list](https://github.com/egoist/vegito/contributors)).
 
 > [egoistian.com](https://egoistian.com) · GitHub [@egoist](https://github.com/egoist) · Twitter [@rem_rin_rin](https://twitter.com/rem_rin_rin)

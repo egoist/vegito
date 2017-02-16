@@ -1,12 +1,12 @@
 {
-  "name": "vegeto",
-  "version": "1.0.1",
+  "name": "vegito",
+  "version": "0.0.0",
   "description": "Simple micro templating with JavaScript expression support.",
   "repository": {
-    "url": "egoist/vegeto",
+    "url": "egoist/vegito",
     "type": "git"
   },
-  "main": "dist/vegeto.common.js",
+  "main": "dist/vegito.common.js",
   "files": [
     "dist"
   ],
