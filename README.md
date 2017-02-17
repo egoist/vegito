@@ -71,7 +71,7 @@ Set `safe` to `true` to disable JavaScript expressions in template, this way you
 
 Type: `function`
 
-Sanitize template in when `safe` is `false`.
+Sanitize template when `safe` is `false`.
 
 ## Contributing
 
