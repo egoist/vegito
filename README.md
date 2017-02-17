@@ -60,6 +60,19 @@ Default: `['{{', '}}']`
 
 Change the expression interpolation delimiters.
 
+##### safe
+
+Type: `Boolean`<br>
+Default: `false`
+
+Set `safe` to `true` to disable JavaScript expressions in template, this way you can only reference variables.
+
+##### sanitize
+
+Type: `function`
+
+Sanitize template in when `safe` is `false`.
+
 ## Contributing
 
 1. Fork it!
